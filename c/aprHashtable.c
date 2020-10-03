@@ -52,7 +52,7 @@ int main(int argc, const char* const* argv)
  
   apr_hash_t *ht = apr_hash_make(p);
  
-  apr_cpystrn(countName, "Jens Frey", 12);
+  apr_cpystrn(countName, "Jens Frey  ", 12);
  
   for (i=0; i < 26; i++) {
     countName[10] = (char) i + 65;
