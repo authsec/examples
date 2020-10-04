@@ -1,10 +1,5 @@
 package org.coffeecrew.examples.enumeration;
 
-/**
- * This enumeration describes the hardware adjacency
- * of the specified programming languages.
- * @author j
- */
 public enum ProgrammingLanguage {
 
     /* ASM is hardware ;) */
